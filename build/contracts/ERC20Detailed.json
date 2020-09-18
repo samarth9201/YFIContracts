@@ -1754,7 +1754,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-09-18T05:22:28.866Z",
+  "updatedAt": "2020-09-18T05:24:48.815Z",
   "devdoc": {
     "methods": {
       "decimals()": {
