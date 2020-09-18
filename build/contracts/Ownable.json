@@ -2803,7 +2803,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-09-18T20:57:06.757Z",
+  "updatedAt": "2020-09-18T20:59:31.766Z",
   "devdoc": {
     "methods": {
       "initialize(address)": {
