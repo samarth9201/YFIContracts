@@ -161,7 +161,7 @@ contract UFragmentsPolicy is Ownable {
         oracle.update();
         (yfiRate, tokenRate, ,) = oracle.getData();
                
-        uint256 newTargetPrice = (yfiRate.mul(3).div(1000000)).div(10**9);
+        uint256 newTargetPrice = (yfiRate.mul(3).div(10000)).div(10**9);
         tokenRate = tokenRate.div(10**18);
 
         if (tokenRate > MAX_RATE) {
