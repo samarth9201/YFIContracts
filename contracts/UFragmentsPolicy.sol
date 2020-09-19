@@ -157,7 +157,7 @@ contract UFragmentsPolicy is Ownable {
 
         uint256 yfiRate;
         uint256 tokenRate;
-        oracle.update();
+
         (yfiRate, tokenRate) = oracle.getData();
                
         uint256 newTargetPrice = yfiRate.mul(3).div(1000000);
@@ -275,7 +275,7 @@ contract UFragmentsPolicy is Ownable {
         epoch = 0;
 
         uFrags = uFrags_;
-        oracle.update();
+
         (baseYFIValue,) = oracle.getData();
     }
 
